@@ -1,0 +1,54 @@
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Project portfolio input</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <nav>
+         <h1>Zodiac</h1>
+      </nav>
+      <section>
+         <label for="image-cover"><div class="enter-img">
+            <img src="asset/img.png">
+             <input type="file" id="image-cover" onchange="readFile();" />
+         </div></label>
+         <div class="input-section">
+            <input placeholder="Project title" type="text">
+         </div>
+         <div class="language-section">
+            <h1>Project language</h1>
+            <ul class="all-language">
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>Javascript</li>
+               <li>Python</li>
+               <li>Tailwind CSS</li>
+               <li>Bootstrap</li>
+            </ul>
+         </div>
+         <div class="tag-section">
+            <h1>Project Type</h1>
+            <ul class="type-list">
+               <li>Vanilla Javascript</li>
+               <li>CSS design</li>
+               <li>Javascript Game</li>
+               <li>Landing page</li>
+               <li>React Website</li>
+            </ul>
+         </div>
+         <div class="description">
+            <h2>Description</h2>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Project description"></textarea>
+         </div>
+         <div class="btn">
+            <button>Post</button>
+         </div>
+      </section>
+   </div>
+   <script src="main.js"></script>
+</body>
+</html>

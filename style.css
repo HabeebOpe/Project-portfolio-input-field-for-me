@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   font-family: 'Space Grotesk', sans-serif;
+   outline: none;
+}
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 15px;
+   background: #fff;
+}
+.container{
+   width: 500px;
+}
+nav{
+   padding: 10px;
+   text-align: center;
+}
+nav h1{
+   font-size: 2rem;
+}
+section{
+   padding: 10px;
+}
+.enter-img{
+   background-color: green;
+   max-height: 300px;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.enter-img img{
+   width: 100%;
+}
+.enter-img input{
+   display: none;
+}
+.input-section{
+   padding: 20px 0;
+}
+.input-section input{
+   padding: 12px;
+   width: 100%;
+   font-size: 17px;
+   border: 2px solid #6121CE;
+   border-radius: 10px;
+}
+.all-language{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 10px 0;
+}
+.all-language li{
+   padding: 10px;
+   border-radius: 10px;
+   border: 2px solid #6121CE; 
+   margin: 3px;
+   color: #000;
+   transition: 0.2s ease;
+}
+.all-language li:hover{
+   background-color: #6121CE;
+   color: #fff;
+}
+.type-list{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 10px 0;
+}
+.type-list li{
+   padding: 10px;
+   border-radius: 10px;
+   border: 2px solid #6121CE; 
+   margin: 3px;
+   color: #000;
+   transition: 0.2s ease;
+}
+.type-list li:hover{
+   background-color: #6121CE;
+   color: #fff;
+}
+h2, h1{
+   padding: 10px;
+}
+.description textarea{
+   width: 100%;
+   padding: 10px;
+   font-size: 16px;
+   border: 2px solid #6121CE;
+   border-radius: 10px;
+}
+.btn{
+   padding: 15px;
+}
+button{
+   width: 100%;
+   padding: 12px;
+   font-size: 16px;
+   font-weight: bold;
+   color: #fff;
+   border-radius: 10px;
+   background-color: #6121CE;
+   border: none;
+}
